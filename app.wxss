@@ -1,0 +1,17 @@
+/**app.wxss**/
+page{
+  --themeColor:#ecced8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36rpx;
+  /* font-size: 30rpx; */
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+

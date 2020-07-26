@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/produce/produce",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ecced8",
+    "navigationBarTitleText": "告白小人",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"ecced8"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}

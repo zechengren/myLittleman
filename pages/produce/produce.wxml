@@ -1,0 +1,22 @@
+<canvas type="2d" id="myCanvas" force-use-old-canvas="true"></canvas>
+<view>
+  <view class="img_box" wx:if="{{page_one}} == 1"> 
+     <image src="/image/share.png" mode="widthFix" class="img1" ></image>
+     <image src="/image/download.png" mode="widthFix" class="img2"></image>
+     <button class="btn1" open-type="share"></button>
+     <button class="btn2" bindtap="savePic"></button>
+  </view>
+  <view class="img_box" wx:else>
+     <button class="btn_produce">生成小人</button>
+  </view>
+</view>
+
+
+
+<view class="color_box">
+  <view style="background-color: #2980b9" bindtap="sel_color" data-color="#2980b9"></view>
+  <view style="background-color: #ffffff" bindtap="sel_color" data-color="#ffffff"></view>
+  <view style="background-color: #fb9696" bindtap="sel_color" data-color="#fb9696"></view>
+  <view style="background-color: #62d2a2" bindtap="sel_color" data-color="#62d2a2"></view>
+  <view style="background-color: #4b586e" bindtap="sel_color" data-color="#4b586e"></view>
+</view>

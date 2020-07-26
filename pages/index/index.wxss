@@ -1,0 +1,54 @@
+page{
+  background-color: var(--themeColor);
+}
+image{
+  width: 100%;
+}
+.hisName-box{
+  margin-top: 40rpx;
+  width: 100%;
+  height: 60rpx;
+}
+.hisName, .hisMsg, .produce{
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.hisName{
+  width: 35%;
+  height: 70rpx;
+  border-radius: 18rpx;
+  padding: 14rpx 18rpx;
+  background-color: #fff;
+  text-align: center;
+}
+.hisMsg-box{
+  /* position: relative; */
+  width: 100%;
+  height: 400rpx;
+  padding-top: 80rpx;
+}
+.hisMsg{
+  width:80%;
+  height: 300rpx;
+  border-radius: 14rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.produce{
+  font-weight: 400;
+  width: 240rpx!important;
+  padding: 30rpx;
+  background-image: linear-gradient(to right, #ffffff, #e48ea6);
+}
+/* .del{
+  border: 1px solid #cd6854;
+  font-weight: 400;
+  font-size: 12px!important;
+  color: #cd6854;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} */

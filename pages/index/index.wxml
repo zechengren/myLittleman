@@ -1,0 +1,15 @@
+<view>
+   <image src="/image/card.png" mode="widthFix">  </image>
+</view>
+<view class="hisName-box">
+   <input  placeholder="他/她的名字" class="hisName" bindinput="inputName"></input>
+</view>
+<view class="hisMsg-box">
+  <textarea class="hisMsg" placeholder="请手动分行哈" bindinput="inputMsg" value="{{value}}">
+     <!-- <button class="del" size="mini" bindtap="del">清空文字</button> -->
+  </textarea>
+  
+</view>
+<view class="btn-box">
+  <button class="produce" bindtap="handleProduce"> 生成小人 </button>
+</view>

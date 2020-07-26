@@ -1,0 +1,53 @@
+page{
+  background-color: var(--themeColor);
+}
+canvas{
+  width:100%;
+  height:300px;
+  background-color: azure;
+}
+.img_box{
+  position: relative;
+  width:100%;
+  height: 60px;
+  margin-top: 40rpx;
+}
+.img1, .img2 {
+  position: absolute;
+  width: 15%;
+  top:0;
+}
+.img1,.btn1{
+  left:0;
+  transform: translateX(100%);
+}
+.img2, .btn2{
+  right:0;
+  transform: translateX(-100%);
+
+}
+
+.btn1,.btn2{
+  position: absolute;
+  width: 50px!important;
+  height: 50px;
+  border-radius: 50%;
+
+  background-color: transparent;
+}
+
+.color_box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90rpx;
+}
+.color_box view{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.btn_produce{
+  font-weight: 400;
+  background-color: #fff;
+  color: #da7f83;
+}
