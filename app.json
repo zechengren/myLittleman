@@ -9,7 +9,7 @@
     "navigationBarBackgroundColor": "#ecced8",
     "navigationBarTitleText": "告白小人",
     "navigationBarTextStyle":"white",
-    "backgroundColor":"ecced8"
+    "backgroundColor":"#ecced8"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
